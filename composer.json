@@ -1,0 +1,25 @@
+{
+    "name": "agriya/webshoptaxation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ahsan",
+            "email": "r.senthilvasan@agriya.in"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/models",
+            "src/services"
+        ],
+        "psr-0": {
+            "Agriya\\Webshoptaxation\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
